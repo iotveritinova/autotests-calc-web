@@ -5,12 +5,13 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import ru.neoflex.model.MainPage;
 import ru.neoflex.model.SendPage;
 
 public class SendTestimonyTest<coldWaterValue> {
-    private ChromeDriver driver;
+    private WebDriver driver;
 
 
     @BeforeEach
@@ -21,7 +22,7 @@ public class SendTestimonyTest<coldWaterValue> {
         Thread.sleep(1000);
     }
 
-    private By coldWaterValueField = By.xpath("//*[@id=\"table\"]/tbody/tr[3]/td[2]");
+    private By coldWaterValueField = By.xpath("//*[@id=\"table\"]/tbody/tr[1]/td[2]");
 
     @Test
     public void FillAndSubmitSendPage() throws InterruptedException {
@@ -29,40 +30,17 @@ public class SendTestimonyTest<coldWaterValue> {
         MainPage mainPage = new MainPage(driver);
         mainPage.clickSend();
         Assertions.assertEquals(driver.findElement(By.xpath("/html/body/h1")).getText(), "Передача показаний");
+        SendPage sendPage = new SendPage(driver);
         //2) Заполнить на странице передачи показаний все поля необходимыми данными
-        fillNewTestimony("01.07.2020", "123.3", "234.8", "3453", "55");
+        sendPage.fillNewTestimony("01.07.2020", "123", "234", "34", "55");
         // 3) Нажать на кнопку для передачи данных формы
-        clickSendTesimony();
+        sendPage.clickSendTesimony();
         // there is a problim with value check
         String coldwater = driver.findElement(coldWaterValueField).getText();
-        System.out.println(coldwater + " " + coldwater.isEmpty());
         Assertions.assertEquals(true, coldwater.isEmpty());
+        Assertions.assertEquals(driver.findElement(By.xpath("/html/body/h1")).getText(), "Передача показаний");
     }
 
-    private By date = By.xpath("//*[@id=\"date\"]");
-    private By coldData = By.xpath("//*[@id=\"coldData\"]");
-    private By hotData = By.xpath("//*[@id=\"hotData\"]");
-    private By gasData = By.xpath("//*[@id=\"gasData\"]");
-    private By elecData = By.xpath("//*[@id=\"elecData\"]");
-    private By sendTestimony = By.xpath("//*[@id=\"button\"]");
-
-
-    public void fillNewTestimony(String testDate, String coldValue, String hotValue, String gasValue, String elecValue) {
-        fillField(driver, date, testDate);
-        fillField(driver, coldData, coldValue);
-        fillField(driver, hotData, hotValue);
-        fillField(driver, gasData, gasValue);
-        fillField(driver, elecData, elecValue);
-    }
-
-    public SendPage clickSendTesimony() {
-        driver.findElement(sendTestimony).click();
-        return new SendPage(driver);
-    }
-
-    public static void fillField(ChromeDriver driver, By date, String s) {
-        driver.findElement(date).sendKeys(s);
-    }
 
     @AfterEach
     public void closePage() {

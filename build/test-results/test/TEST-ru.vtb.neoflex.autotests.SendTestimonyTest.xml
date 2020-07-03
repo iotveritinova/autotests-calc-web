@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.vtb.neoflex.autotests.SendTestimonyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-03T10:37:13" hostname="WS64-073" time="11.22">
+<testsuite name="ru.vtb.neoflex.autotests.SendTestimonyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-03T15:23:40" hostname="WS64-073" time="10.233">
   <properties/>
-  <testcase name="FillAndSubmitSendPage()" classname="ru.vtb.neoflex.autotests.SendTestimonyTest" time="11.22"/>
-  <system-out><![CDATA[ true
-]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 34719
+  <testcase name="FillAndSubmitSendPage()" classname="ru.vtb.neoflex.autotests.SendTestimonyTest" time="10.233"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 1897
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-июл. 03, 2020 2:37:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+июл. 03, 2020 7:23:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
