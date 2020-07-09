@@ -1,0 +1,55 @@
+{
+  "uid" : "735c4383308e46b4",
+  "name" : "FromMainToSendAndBack()",
+  "fullName" : "ru.vtb.neoflex.autotests.PageNavigationTest.FromMainToSendAndBack",
+  "historyId" : "1f779656c6f697745b66e9fb675ae286",
+  "time" : {
+    "start" : 1593702654434,
+    "stop" : 1593702662383,
+    "duration" : 7949
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "ws64-073"
+  }, {
+    "name" : "thread",
+    "value" : "30132@ws64-073.Test worker(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.vtb.neoflex.autotests.PageNavigationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.vtb.neoflex.autotests.PageNavigationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "FromMainToSendAndBack"
+  }, {
+    "name" : "suite",
+    "value" : "ru.vtb.neoflex.autotests.PageNavigationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "735c4383308e46b4.json",
+  "parameterValues" : [ ]
+}

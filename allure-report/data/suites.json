@@ -1,0 +1,91 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "ru.vtb.neoflex.autotests.PageNavigationTest",
+    "children" : [ {
+      "name" : "TryTest()",
+      "uid" : "3ef80ada1faddb7",
+      "parentUid" : "9a3eae174d461d4ace95c2a6aad52e9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593699993085,
+        "stop" : 1593700002051,
+        "duration" : 8966
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Navigation test",
+      "uid" : "812a125fe8c7dd3",
+      "parentUid" : "9a3eae174d461d4ace95c2a6aad52e9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594299629824,
+        "stop" : 1594299639338,
+        "duration" : 9514
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Navigation test2",
+      "uid" : "ca1aa46e61acf6ae",
+      "parentUid" : "9a3eae174d461d4ace95c2a6aad52e9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594299639421,
+        "stop" : 1594299648922,
+        "duration" : 9501
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Navigation test3",
+      "uid" : "694008010ba2ff5e",
+      "parentUid" : "9a3eae174d461d4ace95c2a6aad52e9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594299648934,
+        "stop" : 1594299656044,
+        "duration" : 7110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9a3eae174d461d4ace95c2a6aad52e9c"
+  }, {
+    "name" : "ru.vtb.neoflex.autotests.SendTestimonyTest",
+    "children" : [ {
+      "name" : "FromMainToSendAndBack()",
+      "uid" : "739064a64d33932c",
+      "parentUid" : "6c05208a3eb6bae37d3e78ec98b951cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593760323465,
+        "stop" : 1593760330881,
+        "duration" : 7416
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "FillAndSubmitSendPage()",
+      "uid" : "a8ddf756820735f8",
+      "parentUid" : "6c05208a3eb6bae37d3e78ec98b951cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594027559108,
+        "stop" : 1594027575111,
+        "duration" : 16003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6c05208a3eb6bae37d3e78ec98b951cf"
+  } ]
+}

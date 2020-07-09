@@ -1,0 +1,589 @@
+{
+  "uid" : "a8ddf756820735f8",
+  "name" : "FillAndSubmitSendPage()",
+  "fullName" : "ru.vtb.neoflex.autotests.SendTestimonyTest.FillAndSubmitSendPage",
+  "historyId" : "95cb82150b32b56dca4efde692182d63",
+  "time" : {
+    "start" : 1594027559108,
+    "stop" : 1594027575111,
+    "duration" : 16003
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "ws64-073"
+  }, {
+    "name" : "thread",
+    "value" : "42084@ws64-073.Test worker(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.vtb.neoflex.autotests.SendTestimonyTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.vtb.neoflex.autotests.SendTestimonyTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "FillAndSubmitSendPage"
+  }, {
+    "name" : "suite",
+    "value" : "ru.vtb.neoflex.autotests.SendTestimonyTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "340047f8a57b1c8b",
+      "status" : "broken",
+      "statusDetails" : "Index 6 out of bounds for length 6",
+      "time" : {
+        "start" : 1594027220635,
+        "stop" : 1594027236954,
+        "duration" : 16319
+      }
+    }, {
+      "uid" : "225337d8f72eba14",
+      "status" : "broken",
+      "statusDetails" : "Index 6 out of bounds for length 6",
+      "time" : {
+        "start" : 1594027122755,
+        "stop" : 1594027136390,
+        "duration" : 13635
+      }
+    }, {
+      "uid" : "aa8d27bc5d713f0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594027051049,
+        "stop" : 1594027067716,
+        "duration" : 16667
+      }
+    }, {
+      "uid" : "f667879eae2b98e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594026351500,
+        "stop" : 1594026360841,
+        "duration" : 9341
+      }
+    }, {
+      "uid" : "9437212d0f14b08f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594025182859,
+        "stop" : 1594025195451,
+        "duration" : 12592
+      }
+    }, {
+      "uid" : "de470d6c7502fb78",
+      "status" : "broken",
+      "statusDetails" : "Index 2 out of bounds for length 2",
+      "time" : {
+        "start" : 1594025133657,
+        "stop" : 1594025143529,
+        "duration" : 9872
+      }
+    }, {
+      "uid" : "d48d28fb180caf41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594025082166,
+        "stop" : 1594025100785,
+        "duration" : 18619
+      }
+    }, {
+      "uid" : "b87ead592409f067",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594025041990,
+        "stop" : 1594025061377,
+        "duration" : 19387
+      }
+    }, {
+      "uid" : "dabf0bb0f392e04b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594024909514,
+        "stop" : 1594024923474,
+        "duration" : 13960
+      }
+    }, {
+      "uid" : "230e6bd37fc21cf3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594024770094,
+        "stop" : 1594024780992,
+        "duration" : 10898
+      }
+    }, {
+      "uid" : "68cf1bed271da303",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594024743920,
+        "stop" : 1594024753667,
+        "duration" : 9747
+      }
+    }, {
+      "uid" : "f8e60ab07e3ac1cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594024702490,
+        "stop" : 1594024713962,
+        "duration" : 11472
+      }
+    }, {
+      "uid" : "1e9838d6fd7276d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594024639482,
+        "stop" : 1594024657705,
+        "duration" : 18223
+      }
+    }, {
+      "uid" : "cc0ebaf018a1d52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593789820390,
+        "stop" : 1593789830526,
+        "duration" : 10136
+      }
+    }, {
+      "uid" : "5cf97bbdb17350a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593789627759,
+        "stop" : 1593789641272,
+        "duration" : 13513
+      }
+    }, {
+      "uid" : "a5584f44915bbdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593789534660,
+        "stop" : 1593789545710,
+        "duration" : 11050
+      }
+    }, {
+      "uid" : "2eab11dd98371e13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593789344276,
+        "stop" : 1593789354865,
+        "duration" : 10589
+      }
+    }, {
+      "uid" : "651e2e7518fb587",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593788777264,
+        "stop" : 1593788786052,
+        "duration" : 8788
+      }
+    }, {
+      "uid" : "ad806d9760a2f2a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593788656557,
+        "stop" : 1593788665268,
+        "duration" : 8711
+      }
+    }, {
+      "uid" : "7bf6c30fc2d5afa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593788449451,
+        "stop" : 1593788459638,
+        "duration" : 10187
+      }
+    }, {
+      "uid" : "a2d51a448433e49b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593787769974,
+        "stop" : 1593787778651,
+        "duration" : 8677
+      }
+    }, {
+      "uid" : "605a135b70a64a87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593787736021,
+        "stop" : 1593787751199,
+        "duration" : 15178
+      }
+    }, {
+      "uid" : "8a349a08b7853a3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593787350541,
+        "stop" : 1593787363496,
+        "duration" : 12955
+      }
+    }, {
+      "uid" : "f832b1578ea90a70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593773360267,
+        "stop" : 1593773372058,
+        "duration" : 11791
+      }
+    }, {
+      "uid" : "e6f807a9d5297681",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593773255062,
+        "stop" : 1593773266108,
+        "duration" : 11046
+      }
+    }, {
+      "uid" : "cf69da67b72b0a17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593773120237,
+        "stop" : 1593773130028,
+        "duration" : 9791
+      }
+    }, {
+      "uid" : "38be168baddd6301",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593773081089,
+        "stop" : 1593773092908,
+        "duration" : 11819
+      }
+    }, {
+      "uid" : "fad867c005e20368",
+      "status" : "failed",
+      "statusDetails" : "expected: <true> but was: <false>",
+      "time" : {
+        "start" : 1593773045231,
+        "stop" : 1593773055438,
+        "duration" : 10207
+      }
+    }, {
+      "uid" : "654da0df7aea3a1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593772633754,
+        "stop" : 1593772644883,
+        "duration" : 11129
+      }
+    }, {
+      "uid" : "99fb7af37e1af28f",
+      "status" : "failed",
+      "statusDetails" : "expected: <false> but was: <true>",
+      "time" : {
+        "start" : 1593772586235,
+        "stop" : 1593772597173,
+        "duration" : 10938
+      }
+    }, {
+      "uid" : "ac2ed4a0981ed7a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593771598360,
+        "stop" : 1593771610213,
+        "duration" : 11853
+      }
+    }, {
+      "uid" : "3b8438c4a809369b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593771561335,
+        "stop" : 1593771571529,
+        "duration" : 10194
+      }
+    }, {
+      "uid" : "1b52b7d47f7c462f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593771345433,
+        "stop" : 1593771355501,
+        "duration" : 10068
+      }
+    }, {
+      "uid" : "306f72b28d3bb62f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593771161975,
+        "stop" : 1593771171290,
+        "duration" : 9315
+      }
+    }, {
+      "uid" : "efcad6883008365",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593770120135,
+        "stop" : 1593770132112,
+        "duration" : 11977
+      }
+    }, {
+      "uid" : "f6c43a901e4029c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593770072908,
+        "stop" : 1593770082306,
+        "duration" : 9398
+      }
+    }, {
+      "uid" : "364f8f042cb4c5b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593770016200,
+        "stop" : 1593770028536,
+        "duration" : 12336
+      }
+    }, {
+      "uid" : "d4b1567be1f37cc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593769973167,
+        "stop" : 1593769990104,
+        "duration" : 16937
+      }
+    }, {
+      "uid" : "a2d717fdc6d4d19d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593769883533,
+        "stop" : 1593769897108,
+        "duration" : 13575
+      }
+    }, {
+      "uid" : "1d450871773db49e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593763722327,
+        "stop" : 1593763730941,
+        "duration" : 8614
+      }
+    }, {
+      "uid" : "9d091120a2ac0e73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593763696833,
+        "stop" : 1593763706255,
+        "duration" : 9422
+      }
+    }, {
+      "uid" : "2056ea7a66942db6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593763665731,
+        "stop" : 1593763674339,
+        "duration" : 8608
+      }
+    }, {
+      "uid" : "3ce9feee3fe1f98e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593763444170,
+        "stop" : 1593763460716,
+        "duration" : 16546
+      }
+    }, {
+      "uid" : "39c34fa0ddd9cafa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593763382189,
+        "stop" : 1593763391024,
+        "duration" : 8835
+      }
+    }, {
+      "uid" : "6245b7be68345381",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593763343773,
+        "stop" : 1593763357912,
+        "duration" : 14139
+      }
+    }, {
+      "uid" : "9b51243238e204a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593763201676,
+        "stop" : 1593763216062,
+        "duration" : 14386
+      }
+    }, {
+      "uid" : "9a2864a4a019b519",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593763086907,
+        "stop" : 1593763095991,
+        "duration" : 9084
+      }
+    }, {
+      "uid" : "2e5947ab56e7a1a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593763046267,
+        "stop" : 1593763058808,
+        "duration" : 12541
+      }
+    }, {
+      "uid" : "29d93db9b4b672ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593762857142,
+        "stop" : 1593762867147,
+        "duration" : 10005
+      }
+    }, {
+      "uid" : "78dfde9049d9a121",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593762775213,
+        "stop" : 1593762784285,
+        "duration" : 9072
+      }
+    }, {
+      "uid" : "e1d8b7300ed96368",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593762643377,
+        "stop" : 1593762663665,
+        "duration" : 20288
+      }
+    }, {
+      "uid" : "dcd04db0fc85e9fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593762589641,
+        "stop" : 1593762615587,
+        "duration" : 25946
+      }
+    }, {
+      "uid" : "47faafc4c9be500d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593762559965,
+        "stop" : 1593762568936,
+        "duration" : 8971
+      }
+    }, {
+      "uid" : "8c72ebdf8efa5ae9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593762511069,
+        "stop" : 1593762519755,
+        "duration" : 8686
+      }
+    }, {
+      "uid" : "80fe3e4b8364cd60",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"*[@id=\"table\"]/tbody/tr[3]/td[1]\"}\n  (Session info: chrome=83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WS64-073', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\ITVERI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ebb86a414a5cb10f6a83ff40a2bd7988\n*** Element info: {Using=xpath, value=*[@id=\"table\"]/tbody/tr[3]/td[1]}",
+      "time" : {
+        "start" : 1593762434112,
+        "stop" : 1593762449424,
+        "duration" : 15312
+      }
+    }, {
+      "uid" : "50cd1f2bd8b81b3a",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"*[@id=\"table\"]/tbody/tr[3]/td[1]\"}\n  (Session info: chrome=83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WS64-073', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\ITVERI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55717}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 6a17fe665015736a470174e6de8a436c\n*** Element info: {Using=xpath, value=*[@id=\"table\"]/tbody/tr[3]/td[1]}",
+      "time" : {
+        "start" : 1593762285374,
+        "stop" : 1593762295050,
+        "duration" : 9676
+      }
+    }, {
+      "uid" : "944f960d707aa151",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593762060655,
+        "stop" : 1593762069294,
+        "duration" : 8639
+      }
+    }, {
+      "uid" : "3fac544f906f7150",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"*[@id=\"table\"]/tbody/tr[3]/td[1]\"}\n  (Session info: chrome=83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WS64-073', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\ITVERI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55371}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 98a627ad13569e7975aa96f57fff2dd5\n*** Element info: {Using=xpath, value=*[@id=\"table\"]/tbody/tr[3]/td[1]}",
+      "time" : {
+        "start" : 1593762040470,
+        "stop" : 1593762048945,
+        "duration" : 8475
+      }
+    }, {
+      "uid" : "c5100c3226e0fea9",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"*[@id=\"table\"]/tbody/tr[3]/td[2]\"}\n  (Session info: chrome=83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WS64-073', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\ITVERI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55295}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: df691e4fdaa8b11a9e2df581bb76218b\n*** Element info: {Using=xpath, value=*[@id=\"table\"]/tbody/tr[3]/td[2]}",
+      "time" : {
+        "start" : 1593761994625,
+        "stop" : 1593762004770,
+        "duration" : 10145
+      }
+    }, {
+      "uid" : "b01566fd454bcae",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"*[@id=\"table\"]/tbody/tr[td=\"Холодная вода\"]/td[2]\"}\n  (Session info: chrome=83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WS64-073', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\ITVERI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55165}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c57bf5c6c9167415de779995ee903080\n*** Element info: {Using=xpath, value=*[@id=\"table\"]/tbody/tr[td=\"Холодная вода\"]/td[2]}",
+      "time" : {
+        "start" : 1593761929639,
+        "stop" : 1593761939740,
+        "duration" : 10101
+      }
+    }, {
+      "uid" : "466871f0da2faaad",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"*[@id=\"table\"]/tbody/tr[td=\"Холодная вода\"]/td[2]\"}\n  (Session info: chrome=83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WS64-073', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\ITVERI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 3a7557ca180577ecae22de681f19d9b2\n*** Element info: {Using=xpath, value=*[@id=\"table\"]/tbody/tr[td=\"Холодная вода\"]/td[2]}",
+      "time" : {
+        "start" : 1593761896049,
+        "stop" : 1593761907240,
+        "duration" : 11191
+      }
+    }, {
+      "uid" : "ac4df8ff24360dd4",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: Unable to locate an element with the xpath expression *[@id=\"table\"]/tbody/tr[td=\"Холодная вода\"/td[2] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '*[@id=\"table\"]/tbody/tr[td=\"Холодная вода\"/td[2]' is not a valid XPath expression.\n  (Session info: chrome=83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WS64-073', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\ITVERI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54933}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: b04be83ccc18c37e83ecead26c8bba44\n*** Element info: {Using=xpath, value=*[@id=\"table\"]/tbody/tr[td=\"Холодная вода\"/td[2]}",
+      "time" : {
+        "start" : 1593761836622,
+        "stop" : 1593761854811,
+        "duration" : 18189
+      }
+    }, {
+      "uid" : "6e1b311d1e9cf8db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593761392778,
+        "stop" : 1593761405143,
+        "duration" : 12365
+      }
+    }, {
+      "uid" : "24ab1c21dc034439",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593760631026,
+        "stop" : 1593760640457,
+        "duration" : 9431
+      }
+    }, {
+      "uid" : "c2dc1185e8ad23fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593760435782,
+        "stop" : 1593760444784,
+        "duration" : 9002
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a8ddf756820735f8.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jul 03 11:12:03 SAMT 2020","Fri Jul 03 11:12:10 SAMT 2020","7416","","ru.vtb.neoflex.autotests.SendTestimonyTest","","ru.vtb.neoflex.autotests.SendTestimonyTest","FromMainToSendAndBack","FromMainToSendAndBack()",""
+"passed","Thu Jul 02 18:26:33 SAMT 2020","Thu Jul 02 18:26:42 SAMT 2020","8966","","ru.vtb.neoflex.autotests.PageNavigationTest","","ru.vtb.neoflex.autotests.PageNavigationTest","TryTest","TryTest()",""
+"passed","Thu Jul 09 17:00:29 SAMT 2020","Thu Jul 09 17:00:39 SAMT 2020","9514","","ru.vtb.neoflex.autotests.PageNavigationTest","","ru.vtb.neoflex.autotests.PageNavigationTest","FromMainToSendAndBack","Navigation test","Navigation test description"
+"passed","Thu Jul 09 17:00:39 SAMT 2020","Thu Jul 09 17:00:48 SAMT 2020","9501","","ru.vtb.neoflex.autotests.PageNavigationTest","","ru.vtb.neoflex.autotests.PageNavigationTest","FromMainToHistoryAndBack","Navigation test2","Navigation test description2"
+"passed","Mon Jul 06 13:25:59 SAMT 2020","Mon Jul 06 13:26:15 SAMT 2020","16003","","ru.vtb.neoflex.autotests.SendTestimonyTest","","ru.vtb.neoflex.autotests.SendTestimonyTest","FillAndSubmitSendPage","FillAndSubmitSendPage()",""
+"passed","Thu Jul 09 17:00:48 SAMT 2020","Thu Jul 09 17:00:56 SAMT 2020","7110","","ru.vtb.neoflex.autotests.PageNavigationTest","","ru.vtb.neoflex.autotests.PageNavigationTest","FromMainToPriceAndBack","Navigation test3","Navigation test description3"

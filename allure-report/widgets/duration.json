@@ -1,0 +1,61 @@
+[ {
+  "uid" : "739064a64d33932c",
+  "name" : "FromMainToSendAndBack()",
+  "time" : {
+    "start" : 1593760323465,
+    "stop" : 1593760330881,
+    "duration" : 7416
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ef80ada1faddb7",
+  "name" : "TryTest()",
+  "time" : {
+    "start" : 1593699993085,
+    "stop" : 1593700002051,
+    "duration" : 8966
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "812a125fe8c7dd3",
+  "name" : "Navigation test",
+  "time" : {
+    "start" : 1594299629824,
+    "stop" : 1594299639338,
+    "duration" : 9514
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca1aa46e61acf6ae",
+  "name" : "Navigation test2",
+  "time" : {
+    "start" : 1594299639421,
+    "stop" : 1594299648922,
+    "duration" : 9501
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8ddf756820735f8",
+  "name" : "FillAndSubmitSendPage()",
+  "time" : {
+    "start" : 1594027559108,
+    "stop" : 1594027575111,
+    "duration" : 16003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "694008010ba2ff5e",
+  "name" : "Navigation test3",
+  "time" : {
+    "start" : 1594299648934,
+    "stop" : 1594299656044,
+    "duration" : 7110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

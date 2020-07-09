@@ -1,0 +1,90 @@
+{
+  "uid" : "694008010ba2ff5e",
+  "name" : "Navigation test3",
+  "fullName" : "ru.vtb.neoflex.autotests.PageNavigationTest.FromMainToPriceAndBack",
+  "historyId" : "5f3ee38ef2800ceea31c71e8a51047e0",
+  "time" : {
+    "start" : 1594299648934,
+    "stop" : 1594299656044,
+    "duration" : 7110
+  },
+  "description" : "Navigation test description3",
+  "descriptionHtml" : "<p>Navigation test description3</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "ws64-073"
+  }, {
+    "name" : "thread",
+    "value" : "13844@ws64-073.Test worker(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.vtb.neoflex.autotests.PageNavigationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.vtb.neoflex.autotests.PageNavigationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "FromMainToPriceAndBack"
+  }, {
+    "name" : "suite",
+    "value" : "ru.vtb.neoflex.autotests.PageNavigationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "44db32828db2fb3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594297980072,
+        "stop" : 1594297985867,
+        "duration" : 5795
+      }
+    }, {
+      "uid" : "52817cd6489f9417",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593703983469,
+        "stop" : 1593703990510,
+        "duration" : 7041
+      }
+    }, {
+      "uid" : "ce427cb73e898926",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593702912471,
+        "stop" : 1593702920936,
+        "duration" : 8465
+      }
+    }, {
+      "uid" : "eb3b3d7d5cb50994",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593702764773,
+        "stop" : 1593702772238,
+        "duration" : 7465
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "694008010ba2ff5e.json",
+  "parameterValues" : [ ]
+}
